@@ -139,7 +139,61 @@ public class ArrayListPractice {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		ArrayList<Double> arr = new ArrayList<Double>();
+
+		System.out.println("Problem A =========================");
+		System.out.println(a());
+
+		System.out.println("\nProblem B =========================");
+		System.out.println(b());
+
+		System.out.println("\nProblem C =========================");
+		System.out.println(c(arr));
+
+		System.out.println("\nProblem D =========================");
+		System.out.println(d(arr));
+
+		System.out.println("\nProblem E =========================");
+		System.out.println(e(arr));
+
+		System.out.println("\nProblem F =========================");
+		System.out.println(f(arr));
+
+		System.out.println("\nProblem G =========================");
+		System.out.println(g(arr));
+
+		System.out.println("\nProblem H =========================");
+		System.out.println(h(arr));
+
+		System.out.println("\nProblem I =========================");
+		System.out.println(i());
+
+		System.out.println("\nProblem J =========================");
+
+		ArrayList<String> arr2 = new ArrayList<String>();
+		arr2.add("beta");
+		arr2.add("gamma");
+		arr2.add("alpha");
+		arr2.add("delta");
+		System.out.println(j(arr2));
+
+		System.out.println("\nProblem K =========================");
+
+		ArrayList<String> arr3 = new ArrayList<String>();
+		arr3.add("q");
+		arr3.add("w");
+		arr3.add("e");
+		arr3.add("r");
+		arr3.add("t");
+		arr3.add("y");
+		System.out.println(k(arr3));
+
+		System.out.println("\nProblem L =========================");
+
+		ArrayList<String> arr4 = new ArrayList<String>();
+		arr4.add("yip");
+		arr4.add("yap");
+		System.out.println(l(arr4));
 
 	}
 
